@@ -1,0 +1,8 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/awshans/app1
+    targetRevision: main
+
+namespace: app1
